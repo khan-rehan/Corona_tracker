@@ -47,25 +47,37 @@ How to `run:`
 
 📸 Screenshots
 
+Home Page & Worldwide cases
+
 <img width="1679" alt="Screenshot 2020-04-16 at 12 29 36 PM" src="https://user-images.githubusercontent.com/42263217/79424726-3e206880-7fde-11ea-822e-cdf9a8dad82c.png">
 
 ---
+
+Statewise cases
 
 <img width="1679" alt="Screenshot 2020-04-16 at 12 29 51 PM" src="https://user-images.githubusercontent.com/42263217/79424732-3f519580-7fde-11ea-9048-b7a4edaffa3f.png">
 
 ---
 
+Daywise cases
+
 <img width="1677" alt="Screenshot 2020-04-16 at 12 30 09 PM" src="https://user-images.githubusercontent.com/42263217/79424737-411b5900-7fde-11ea-8309-fc11f83a69f5.png">
 
 ---
+
+Symptoms
 
 <img width="1672" alt="Screenshot 2020-04-16 at 12 30 50 PM" src="https://user-images.githubusercontent.com/42263217/79424751-47a9d080-7fde-11ea-9f45-bab115179a74.png">
 
 ---
 
+Prevention
+
 <img width="1674" alt="Screenshot 2020-04-16 at 12 30 41 PM" src="https://user-images.githubusercontent.com/42263217/79424907-8a6ba880-7fde-11ea-8a9b-0f574834763a.png">
 
 ---
+
+Contact Page
 
 <img width="1671" alt="Screenshot 2020-04-16 at 12 30 30 PM" src="https://user-images.githubusercontent.com/42263217/79424763-4bd5ee00-7fde-11ea-9957-3f196d794c9f.png">
 
