@@ -1,6 +1,6 @@
 # Corona Tracker [![Author -Rehan Khan](https://img.shields.io/badge/Author-Rehan%20Khan-blue)](https://rehankhan.netlify.app/)
 
-## A live covid-19 website that gives you information about what is corona-virus, its symptoms, preventive measure and all live cases around the globe and specially INDIA (State-wise & Day-wise)
+## A live covid-19 website that gives you information about what is corona-virus, its symptoms, preventive measures and all the live cases around the globe and specially INDIA (State-wise & Day-wise)
 
 ---
 
