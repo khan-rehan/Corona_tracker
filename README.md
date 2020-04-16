@@ -10,7 +10,7 @@ The [Covid 19 API](https://api.covid19api.com/summary) was used to fetch data.
 
 ---
 
-**Wanna take look at my website??**👉🏻👉🏻[ Visit Webiste](http://covid-19rk.epizy.com/)
+**Wanna take look at my website??** 👉🏻👉🏻[ Visit Webiste](http://covid-19rk.epizy.com/)
 
 ---
 
