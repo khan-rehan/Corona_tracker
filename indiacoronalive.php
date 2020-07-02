@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Covid-19</title>
+    	<link rel="icon" href="img/virus.png">
 	<?php include'link/links.php'; ?>
 	<?php include'css/style.php'; ?>
 </head>
