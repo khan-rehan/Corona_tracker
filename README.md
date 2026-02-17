@@ -1,88 +1,93 @@
-# Corona Tracker [![Author -Rehan Khan](https://img.shields.io/badge/Author-Rehan%20Khan-blue)](https://rehankhan.netlify.app/)
+# Corona Tracker
 
-## A live covid-19 website that gives you information about what is corona-virus, its symptoms, preventive measures and all the live cases around the globe and specially INDIA (State-wise & Day-wise)
+[![Author - Rehan Khan](https://img.shields.io/badge/Author-Rehan%20Khan-blue)](https://rehankhan.netlify.app/)
 
----
+A live COVID-19 tracking website that displays real-time coronavirus statistics worldwide and for India (state-wise and day-wise), along with information about symptoms, prevention, and a contact form for reporting symptoms.
 
-<img width="235" alt="Screenshot 2020-04-16 at 12 05 58 PM" src="https://user-images.githubusercontent.com/42263217/79422640-dae10700-7fda-11ea-97c0-36fab46976a7.png">
+## Features
 
-The [Covid 19 API](https://api.covid19api.com/summary) was used to fetch data.
+- **World COVID-19 Live** — Global case statistics fetched from [COVID-19 API](https://api.covid19api.com/summary)
+- **India State-wise** — State-level breakdown of confirmed, active, recovered, and deceased cases
+- **India Day-wise** — Day-by-day progression of COVID-19 cases across India
+- **Symptoms Section** — Visual guide to COVID-19 symptoms (cough, fever, breathing difficulty, etc.)
+- **Prevention Section** — Illustrated preventive measures (hand washing, masks, social distancing, etc.)
+- **Contact Form** — Submit symptoms and messages, stored in MySQL database
+- Responsive design with Bootstrap
+- Animated statistics counters
 
----
+## Tech Stack
 
-**Wanna take look at my website??** 👉🏻👉🏻[ Visit Webiste](http://covid-19rk.epizy.com/)
+- **Backend:** PHP
+- **Database:** MySQL
+- **Frontend:** HTML, CSS, JavaScript, jQuery 3.4.1, Bootstrap 4.4.1
+- **APIs:**
+  - [COVID-19 API](https://api.covid19api.com/summary) (global data)
+  - [covid19india.org API](https://api.covid19india.org/data.json) (India data)
+- **Libraries:** Font Awesome 4.7.0, jQuery Counter-Up, jQuery Waypoints
 
----
-
-🖥Requirements
-
-- Any Operating System (i.e. MacOS X, Linux, WIndows)
-- Any IDE (i.e. VsCode, Sublime Text)
-- Xampp
-
----
-
-✨✨ Features
-
-- World wide Covid-19 cases.
-- India State wise covid-19 cases.
-- India day wise covid-19 cases.
-- A contact form if you suffer from any covid-19 symtopms mentioned in website.
-
----
-
-How to `run:`
+## Project Structure
 
 ```
-- Open Xampp and start Mysql and Apache server and type localhost in browser to check whether its working or not.
-
-- Now in the browser type on localhost/phpmyadmin/ and click on Import on the right side and import coronadb.sql
-
-- Place the downloaded source code in htdocs folder  of the Xampp folder created by default on installing Xampp & now type localhost/htdocs/corona_tracker/index.php in the browser and there you go!
+Corona_tracker/
+├── index.php              # Main page (hero, world stats, about, symptoms, prevention, contact)
+├── indiacoronalive.php    # India state-wise statistics
+├── indiadaywise.php       # India day-wise progression
+├── dbcon.php              # Database connection config
+├── coronadb.sql           # Database schema
+├── css/
+│   └── style.php          # Stylesheets
+├── link/
+│   └── links.php          # CDN links and meta tags
+└── img/                   # Images (icons, symptoms, prevention)
 ```
 
----
+## Installation & Setup
 
----
+### Prerequisites
 
-📸 Screenshots
+- [XAMPP](https://www.apachefriends.org/) (Apache + MySQL + PHP)
 
-Home Page & Worldwide cases
+### Steps
 
-<img width="1679" alt="Screenshot 2020-04-16 at 12 29 36 PM" src="https://user-images.githubusercontent.com/42263217/79424726-3e206880-7fde-11ea-822e-cdf9a8dad82c.png">
+1. Clone the repository into your XAMPP `htdocs` folder
 
----
+   ```sh
+   cd /path/to/xampp/htdocs
+   git clone https://github.com/khan-rehan/Corona_tracker.git
+   ```
 
-Statewise cases
+2. Start Apache and MySQL from the XAMPP control panel
 
-<img width="1679" alt="Screenshot 2020-04-16 at 12 29 51 PM" src="https://user-images.githubusercontent.com/42263217/79424732-3f519580-7fde-11ea-9048-b7a4edaffa3f.png">
+3. Import the database
 
----
+   - Open `http://localhost/phpmyadmin/`
+   - Click **Import** and upload `coronadb.sql`
+   - Click **Go**
 
-Daywise cases
+4. Open `http://localhost/Corona_tracker/index.php` in your browser
 
-<img width="1677" alt="Screenshot 2020-04-16 at 12 30 09 PM" src="https://user-images.githubusercontent.com/42263217/79424737-411b5900-7fde-11ea-8309-fc11f83a69f5.png">
+## Screenshots
 
----
+**Home Page & Worldwide Cases**
 
-Symptoms
+<img width="1679" alt="Home" src="https://user-images.githubusercontent.com/42263217/79424726-3e206880-7fde-11ea-822e-cdf9a8dad82c.png">
 
-<img width="1672" alt="Screenshot 2020-04-16 at 12 30 50 PM" src="https://user-images.githubusercontent.com/42263217/79424751-47a9d080-7fde-11ea-9f45-bab115179a74.png">
+**India State-wise Cases**
 
----
+<img width="1679" alt="Statewise" src="https://user-images.githubusercontent.com/42263217/79424732-3f519580-7fde-11ea-9048-b7a4edaffa3f.png">
 
-Prevention
+**India Day-wise Cases**
 
-<img width="1674" alt="Screenshot 2020-04-16 at 12 30 41 PM" src="https://user-images.githubusercontent.com/42263217/79424907-8a6ba880-7fde-11ea-8a9b-0f574834763a.png">
+<img width="1677" alt="Daywise" src="https://user-images.githubusercontent.com/42263217/79424737-411b5900-7fde-11ea-8309-fc11f83a69f5.png">
 
----
+**Symptoms**
 
-Contact Page
+<img width="1672" alt="Symptoms" src="https://user-images.githubusercontent.com/42263217/79424751-47a9d080-7fde-11ea-9f45-bab115179a74.png">
 
-<img width="1671" alt="Screenshot 2020-04-16 at 12 30 30 PM" src="https://user-images.githubusercontent.com/42263217/79424763-4bd5ee00-7fde-11ea-9957-3f196d794c9f.png">
+**Prevention**
 
----
+<img width="1674" alt="Prevention" src="https://user-images.githubusercontent.com/42263217/79424907-8a6ba880-7fde-11ea-8a9b-0f574834763a.png">
 
----
+**Contact Form**
 
-
+<img width="1671" alt="Contact" src="https://user-images.githubusercontent.com/42263217/79424763-4bd5ee00-7fde-11ea-9957-3f196d794c9f.png">
